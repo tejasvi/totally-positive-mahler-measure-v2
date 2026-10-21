@@ -1,0 +1,34 @@
+cert neg_G_x0.9999.json: 19 polys, 5473 nodes on [0, 56/5]
+m = 19152077587359311629/35184372088832000000 = 0.544334784176; drop = (); scaleG = None
+s = 0.052880126630285; sum c_j deg Q_j = 0.701000960029759; budget sum c deg + 2s = 0.806761213290329  strict < 1 (exact): True
+I (piece pairs)   = [2.87755505460175221012545393351832473e-11 +/- 1.43e-47]
+I (slope jumps)   = [2.87755505460175221012545393351832473e-11 +/- 1.13e-47]   overlap: True  (12s)
+I/s = [5.4416569e-10 +/- 9.28e-19]; constant -m + I/s - sum log|lead/content| = [-0.544335005721830 +/- 3.21e-16]
+  factor deg 1 (weight 1.932276e-01): rational root 0
+  factor deg 1 (weight 3.115444e-01): rational root 1
+  factor deg 2 (weight 3.860293e-02): 2 real roots, 0 complex pairs
+  factor deg 2 (weight 4.142533e-07): 2 real roots, 0 complex pairs
+  factor deg 4 (weight 1.295206e-02): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 2.371581e-04): 4 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 6 (weight 5.191411e-04): 6 real roots, 0 complex pairs
+  factor deg 8 (weight 4.143011e-03): 8 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 8 (weight 9.504507e-05): 8 real roots, 0 complex pairs
+  factor deg 14 (weight 1.236531e-05): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 1.946322e-06): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 8.026375e-07): 14 real roots, 0 complex pairs
+  factor deg 16 (weight 8.049044e-04): 16 real roots, 0 complex pairs
+  factor deg 8 (weight 3.204074e-07): 8 real roots, 0 complex pairs
+  factor deg 8 (weight 3.204074e-07): 8 real roots, 0 complex pairs
+  factor deg 22 (weight 4.052421e-07): 18 real roots, 2 complex pairs
+  factor deg 26 (weight 3.650382e-07): 26 real roots, 0 complex pairs
+  factor deg 32 (weight 5.251085e-08): 32 real roots, 0 complex pairs
+  200 real roots (198 windows), 2 complex pairs
+left tail (0, 1/32]: F >= [0.12534071 +/- 4.21e-9]
+right tail [112/5, inf): kappa = 0.193239, F >= [0.056456079 +/- 2.80e-10] at x = 112/5 and increasing
+198 root windows (width <= 2^-99): 1 FAIL; smallest window bound -1.8582e-07
+INDEPENDENT VERDICT: NOT VERIFIED (window)
+exit status: 1

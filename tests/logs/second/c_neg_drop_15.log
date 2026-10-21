@@ -1,0 +1,52 @@
+cert neg_drop_15.json: 19 polys, 5473 nodes on [0, 56/5]
+m = 19152077587359311629/35184372088832000000 = 0.544334784176; drop = (); scaleG = None
+s = 0.052885415171802; sum c_j deg Q_j = 0.700995833510651; budget sum c deg + 2s = 0.806766663854255  strict < 1 (exact): True
+I (piece pairs)   = [2.87813065195083585778865308624904368e-11 +/- 5.24e-47]
+I (slope jumps)   = [2.878130651950835857788653086249043676e-11 +/- 6.64e-48]   overlap: True  (19s)
+I/s = [5.4422011e-10 +/- 1.09e-18]; constant -m + I/s - sum log|lead/content| = [-0.544334783632259 +/- 2.67e-16]
+  factor deg 1 (weight 1.932276e-01): rational root 0
+  factor deg 1 (weight 3.115444e-01): rational root 1
+  factor deg 2 (weight 3.860293e-02): 2 real roots, 0 complex pairs
+  factor deg 2 (weight 4.142533e-07): 2 real roots, 0 complex pairs
+  factor deg 4 (weight 1.295206e-02): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 2.371581e-04): 4 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 6 (weight 5.191411e-04): 6 real roots, 0 complex pairs
+  factor deg 8 (weight 4.143011e-03): 8 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 8 (weight 9.504507e-05): 8 real roots, 0 complex pairs
+  factor deg 14 (weight 1.236531e-05): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 1.946322e-06): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 8.026375e-07): 14 real roots, 0 complex pairs
+  factor deg 16 (weight 8.049044e-04): 16 real roots, 0 complex pairs
+  factor deg 22 (weight 4.052421e-07): 18 real roots, 2 complex pairs
+  factor deg 26 (weight 3.650382e-07): 26 real roots, 0 complex pairs
+  factor deg 32 (weight 5.251085e-08): 32 real roots, 0 complex pairs
+  184 real roots (182 windows), 2 complex pairs
+left tail (0, 1/32]: F >= [0.12534093 +/- 2.13e-9]
+right tail [112/5, inf): kappa = 0.193233, F >= [0.056439355 +/- 3.26e-10] at x = 112/5 and increasing
+182 root windows (width <= 2^-99): all OK; smallest window bound 2.7232e-06
+5692 main-range intervals on [1/32, 112/5] (21s)
+   F < 0 at x = 0.2684335674: F = [-1.769890234e-8 +/- 4.92e-18]
+   F < 0 at x = 0.2685741924: F = [-2.125006503e-7 +/- 3.54e-18]
+   F < 0 at x = 0.2688241924: F = [-4.322486309e-7 +/- 1.19e-17]
+   F < 0 at x = 0.2690741924: F = [-5.219593398e-7 +/- 6.64e-18]
+   F < 0 at x = 0.269310770616153: F = [-4.682970256e-7 +/- 1.96e-17]
+   F < 0 at x = 0.269435770616153: F = [-3.233045583e-7 +/- 8.26e-19]
+   F < 0 at x = 0.2695741924: F = [-4.121230512e-7 +/- 1.62e-17]
+   F < 0 at x = 0.2698241924: F = [-2.499715432e-7 +/- 3.23e-17]
+   F < 0 at x = 0.270014867875: F = [-4.846499860e-8 +/- 2.07e-18]
+   F < 0 at x = 0.3207241064: F = [-2.251813854e-8 +/- 1.82e-18]
+   F < 0 at x = 0.3208776782: F = [-1.560993380e-7 +/- 1.36e-17]
+   F < 0 at x = 0.3211276782: F = [-2.983303202e-7 +/- 4.67e-17]
+   F < 0 at x = 0.3213803564: F = [-3.595225825e-7 +/- 1.28e-18]
+   F < 0 at x = 0.3216303564: F = [-3.377738138e-7 +/- 2.29e-17]
+   F < 0 at x = 0.3218776782: F = [-2.267426920e-7 +/- 4.35e-17]
+   F < 0 at x = 0.3221276782: F = [-2.328112128e-9 +/- 4.13e-19]
+smallest certified interval lower bound 2.1192e-09 on [0.2700805433, 0.2701462188]
+smallest F(midpoint) seen -5.219593e-07 at x = 0.2690741924
+main range: False  (7633 interval checks, max depth 11)  t=41s
+INDEPENDENT VERDICT: NOT VERIFIED log lambda+ >= 19152077587359311629/35184372088832000000 0.5443347841764794
+exit status: 1

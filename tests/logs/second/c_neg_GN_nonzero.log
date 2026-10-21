@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/srv/p13/checker/check_independent.py", line 629, in <module>
+    sys.exit(0 if main() else 1)
+                  ~~~~^^
+  File "/srv/p13/checker/check_independent.py", line 541, in main
+    c = Cert(path, m_override=os.environ.get("TPA_M"), scaleG=Fr(sg) if sg else None, drop=drop)
+  File "/srv/p13/checker/check_independent.py", line 116, in __init__
+    assert all(g >= 0 for g in self.G) and self.G[0] == 0 and self.G[N] == 0, "G >= 0, G_0 = G_N = 0"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: G >= 0, G_0 = G_N = 0
+exit status: 1

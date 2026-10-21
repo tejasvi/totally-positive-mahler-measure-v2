@@ -1,0 +1,5 @@
+polys 19 (active 19), nodes 5473, s = 0.05288542, m = 0.5443347842
+budget sum c deg + 2 s = 0.806772 < 1  OK;  I = [2.87813065195083585778865308624904367588e-11 +/- 7.26e-50]
+CheckError: x_lo must be in (0, 1) and at or left of the support
+NOT VERIFIED
+exit status: 1

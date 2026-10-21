@@ -1,0 +1,15 @@
+1. factorizations of 19 polynomials with positive weight: all multiply back
+2. s = 0.052885415172, max G / s = 2.4358996620, K = 2 max G / s = 4.8717993241 <= 4.88: yes
+3. G vanishes outside [341/4000, 56/5] = [0.08525, 11.20000] and on 401 node intervals inside it, in 9 runs:
+     [0.225000, 0.230000]  (18 intervals)
+     [0.359000, 0.405000]  (58 intervals)
+     [0.540000, 0.548000]  (25 intervals)
+     [0.760000, 1.316000]  (151 intervals)
+     [1.824000, 1.852000]  (20 intervals)
+     [2.057768, 2.058768]  (2 intervals)
+     [2.464000, 2.788000]  (92 intervals)
+     [3.556000, 3.557193]  (3 intervals)
+     [4.352000, 4.428000]  (32 intervals)
+   198 root windows of check_independent.py; widths in units of 2^-100: min 1, max 1
+AUX CHECKS: PASSED
+exit status: 0

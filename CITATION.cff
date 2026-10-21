@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, certificate or Lean proof, please cite the paper."
+title: "A lower bound for the smallest limit point of the absolute Mahler measure of totally positive algebraic integers"
+authors:
+  - family-names: Tomar
+    given-names: Tejasvi Singh
+    orcid: "https://orcid.org/0000-0003-4668-3639"
+# Code: Apache-2.0. Paper, certificate and data: CC-BY-4.0.
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+repository-code: "https://github.com/tejasvi/totally-positive-mahler-measure-v2"
+doi: 10.5281/zenodo.23539851
+preferred-citation:
+  type: article
+  title: "A lower bound for the smallest limit point of the absolute Mahler measure of totally positive algebraic integers"
+  authors:
+    - family-names: Tomar
+      given-names: Tejasvi Singh
+      orcid: "https://orcid.org/0000-0003-4668-3639"
+  doi: 10.5281/zenodo.23539850
+  year: 2026

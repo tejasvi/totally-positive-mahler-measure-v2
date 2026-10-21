@@ -1,0 +1,56 @@
+Outcome of both checkers on the modified certificates tests/work/<set>/<name>.json written by tests/run_all.sh.
+
+modified certificate            check_certificate  check_independent
+--------------------------------------------------------------------
+a/neg_G_times_0.99              reject             reject
+a/neg_G_times_1.01              reject             reject
+a/neg_budget_violation          reject             reject
+a/neg_cx_times_1.001            reject             reject
+a/neg_drop_heaviest             reject             reject
+a/neg_drop_x_minus_1            reject             reject
+a/neg_m_plus_1e-5               reject             reject
+a/neg_m_plus_2e-6               accept             accept
+a/neg_m_plus_4e-6               reject             reject
+a/neg_negative_G                reject             reject
+b/neg_G_N_nonzero               reject             reject
+b/neg_coeff_x2m3xp1_to_x2m3xp2  reject             reject
+b/neg_drop_second_heaviest      reject             reject
+b/neg_nodes_swapped             reject             reject
+b/neg_x_lo_inside_support       reject             accept
+c/neg_GN_nonzero                reject             reject
+c/neg_G_x0.99                   reject             reject
+c/neg_G_x0.9999                 reject             reject
+c/neg_G_x1.0001                 reject             reject
+c/neg_G_x1.01                   reject             reject
+c/neg_budget_1_minus_1e-30      reject             reject
+c/neg_budget_eq_1               reject             reject
+c/neg_cx_x1.001                 reject             reject
+c/neg_drop_00                   reject             reject
+c/neg_drop_01                   reject             reject
+c/neg_drop_02                   reject             reject
+c/neg_drop_03                   accept             accept
+c/neg_drop_04                   reject             reject
+c/neg_drop_05                   reject             reject
+c/neg_drop_06                   reject             reject
+c/neg_drop_07                   reject             reject
+c/neg_drop_08                   reject             reject
+c/neg_drop_09                   reject             reject
+c/neg_drop_10                   reject             reject
+c/neg_drop_11                   reject             reject
+c/neg_drop_12                   reject             reject
+c/neg_drop_13                   reject             reject
+c/neg_drop_14                   reject             reject
+c/neg_drop_15                   reject             reject
+c/neg_drop_16                   reject             reject
+c/neg_drop_17                   reject             reject
+c/neg_drop_18                   accept             accept
+c/neg_m_up_1e-5                 reject             reject
+c/neg_m_up_2e-6                 accept             accept
+c/neg_m_up_3p1e-6               reject             reject
+c/neg_m_up_4e-6                 reject             reject
+c/neg_negative_G                reject             reject
+c/neg_nodes_swapped             reject             reject
+c/neg_poly_x2-3x+2              reject             reject
+
+49 modified certificates; check_certificate accepts 4, check_independent accepts 5.
+accept = exit status 0 (last line of the log); reject = exit status 1.

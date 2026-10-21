@@ -1,0 +1,67 @@
+name = "LeanAux"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["AuxCore", "AuxCommon", "TPMahler"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+autoImplicit = false
+weak.linter.style.header = false
+
+# Lean proof of an auxiliary-function lower bound:
+#   TPMahler: smallest limit point of the absolute Mahler measure of totally positive algebraic numbers (certificate a5).
+# Toolchain leanprover/lean4:v4.35.0-rc3; Mathlib at tag v4.35.0-rc3 (commit c55e6e786f49, see lake-manifest.json).
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+# Core-only computational checkers (no Mathlib), precompiled for native_decide; kernel shards import only these.
+[[lean_lib]]
+name = "AuxCore"
+precompileModules = true
+
+# Checker (core Lean only), precompiled.
+[[lean_lib]]
+name = "TPCore"
+precompileModules = true
+
+# Shared Mathlib side: definitions of the statements, soundness of the checkers.
+[[lean_lib]]
+name = "AuxCommon"
+globs = ["AuxCommon.+"]
+
+[[lean_lib]]
+name = "TPMahler"
+globs = ["TPMahler.+"]
+
+[[lean_exe]]
+name = "logbench"
+root = "Bench.LogBench"
+
+[[lean_exe]]
+name = "logkbench"
+root = "Bench.LogKBench"
+
+[[lean_exe]]
+name = "tprun"
+root = "Bench.TPRun"
+
+[[lean_exe]]
+name = "tpenergy"
+root = "Bench.TPEnergy"
+
+# Computational shards, native track (native_decide).
+[[lean_lib]]
+name = "TPN"
+globs = ["TPN.+"]
+
+# Computational shards, kernel track (decide +kernel; core Lean only).
+[[lean_lib]]
+name = "TPK"
+globs = ["TPK.+"]
+
+[[lean_exe]]
+name = "tpechunks"
+root = "Bench.TPEChunks"

@@ -1,0 +1,76 @@
+cert neg_m_up_3p1e-6.json: 19 polys, 5473 nodes on [0, 56/5]
+m = 95760933294563935041/175921860444160000000 = 0.544337884176; drop = (); scaleG = None
+s = 0.052885415171802; sum c_j deg Q_j = 0.701000960029759; budget sum c deg + 2s = 0.806771790373363  strict < 1 (exact): True
+I (piece pairs)   = [2.87813065195083585778865308624904368e-11 +/- 5.24e-47]
+I (slope jumps)   = [2.878130651950835857788653086249043676e-11 +/- 6.64e-48]   overlap: True  (12s)
+I/s = [5.4422011e-10 +/- 1.09e-18]; constant -m + I/s - sum log|lead/content| = [-0.544338105721776 +/- 1.02e-16]
+  factor deg 1 (weight 1.932276e-01): rational root 0
+  factor deg 1 (weight 3.115444e-01): rational root 1
+  factor deg 2 (weight 3.860293e-02): 2 real roots, 0 complex pairs
+  factor deg 2 (weight 4.142533e-07): 2 real roots, 0 complex pairs
+  factor deg 4 (weight 1.295206e-02): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 2.371581e-04): 4 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 3 (weight 1.686270e-03): 3 real roots, 0 complex pairs
+  factor deg 6 (weight 5.191411e-04): 6 real roots, 0 complex pairs
+  factor deg 8 (weight 4.143011e-03): 8 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 4 (weight 7.516626e-04): 4 real roots, 0 complex pairs
+  factor deg 8 (weight 9.504507e-05): 8 real roots, 0 complex pairs
+  factor deg 14 (weight 1.236531e-05): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 1.946322e-06): 14 real roots, 0 complex pairs
+  factor deg 14 (weight 8.026375e-07): 14 real roots, 0 complex pairs
+  factor deg 16 (weight 8.049044e-04): 16 real roots, 0 complex pairs
+  factor deg 8 (weight 3.204074e-07): 8 real roots, 0 complex pairs
+  factor deg 8 (weight 3.204074e-07): 8 real roots, 0 complex pairs
+  factor deg 22 (weight 4.052421e-07): 18 real roots, 2 complex pairs
+  factor deg 26 (weight 3.650382e-07): 26 real roots, 0 complex pairs
+  factor deg 32 (weight 5.251085e-08): 32 real roots, 0 complex pairs
+  200 real roots (198 windows), 2 complex pairs
+left tail (0, 1/32]: F >= [0.12533761 +/- 4.21e-9]
+right tail [112/5, inf): kappa = 0.193228, F >= [0.056420094 +/- 7.52e-11] at x = 112/5 and increasing
+198 root windows (width <= 2^-99): all OK; smallest window bound 3.2081e-06
+5708 main-range intervals on [1/32, 112/5] (13s)
+   F < 0 at x = 0.4387432386: F = [-3.628661199e-9 +/- 2.29e-19]
+   F < 0 at x = 0.4388794318: F = [-4.023575598e-8 +/- 4.94e-18]
+   F < 0 at x = 0.4391294318: F = [-8.643858370e-8 +/- 1.08e-18]
+   F < 0 at x = 0.2688241924: F = [-4.807664891e-8 +/- 4.17e-18]
+   F < 0 at x = 0.2690741924: F = [-9.925881923e-8 +/- 2.01e-18]
+   F < 0 at x = 0.269310770616153: F = [-4.615608902e-9 +/- 1.95e-19]
+   F < 0 at x = 0.5845: F = [-2.859168473e-8 +/- 2.93e-18]
+   F < 0 at x = 0.585176266075: F = [-1.963587067e-8 +/- 3.26e-19]
+   F < 0 at x = 1.56475: F = [-2.156358059e-7 +/- 1.90e-17]
+   F < 0 at x = 0.130885787730246: F = [-5.392994342e-8 +/- 4.79e-18]
+   F < 0 at x = 2.21675: F = [-9.471343254e-8 +/- 1.43e-18]
+   F < 0 at x = 4.794: F = [-3.122305489e-8 +/- 4.85e-18]
+   F < 0 at x = 4.798: F = [-8.586034365e-8 +/- 4.96e-18]
+   F < 0 at x = 4.802: F = [-9.948349185e-8 +/- 2.10e-18]
+   F < 0 at x = 4.806: F = [-6.891392398e-8 +/- 3.58e-18]
+   F < 0 at x = 4.809: F = [-1.434731240e-8 +/- 1.53e-19]
+   F < 0 at x = 7.15763: F = [-9.828416248e-8 +/- 4.84e-18]
+   F < 0 at x = 0.3211276782: F = [-3.297989218e-9 +/- 3.52e-19]
+   F < 0 at x = 0.3213803564: F = [-8.914153326e-8 +/- 5.93e-19]
+   F < 0 at x = 0.3216303564: F = [-9.016440279e-8 +/- 4.78e-18]
+   F < 0 at x = 0.3218776782: F = [-2.779338595e-10 +/- 4.94e-20]
+   F < 0 at x = 0.59977125: F = [-9.314077681e-9 +/- 4.24e-19]
+   F < 0 at x = 7.166: F = [-5.807010001e-8 +/- 4.14e-18]
+   F < 0 at x = 0.2580435132: F = [-3.795976355e-8 +/- 2.48e-18]
+   F < 0 at x = 0.2582935132: F = [-9.991786340e-8 +/- 3.94e-19]
+   F < 0 at x = 0.2585435132: F = [-2.931538624e-8 +/- 2.47e-18]
+   F < 0 at x = 0.20794272855: F = [-2.437746775e-8 +/- 7.37e-19]
+   F < 0 at x = 0.20806772855: F = [-8.512925373e-8 +/- 5.2e-20]
+   F < 0 at x = 0.2082604571: F = [-9.779095261e-8 +/- 1.76e-18]
+   F < 0 at x = 0.2085104571: F = [-6.287023769e-8 +/- 2.62e-18]
+   F < 0 at x = 0.2087604571: F = [-4.201176266e-9 +/- 1.67e-19]
+   F < 0 at x = 0.1797580603: F = [-1.094553616e-7 +/- 6.29e-18]
+   F < 0 at x = 1.989: F = [-1.262911200e-9 +/- 4.55e-19]
+   F < 0 at x = 0.69495585835: F = [-7.803610122e-9 +/- 3.70e-19]
+   F < 0 at x = 0.69505785065: F = [-6.110921358e-8 +/- 3.21e-18]
+   F < 0 at x = 0.6952407013: F = [-9.856059550e-8 +/- 2.65e-18]
+   F < 0 at x = 0.69568285065: F = [-9.591504616e-8 +/- 2.48e-18]
+   F < 0 at x = 0.69625: F = [-2.524673635e-8 +/- 2.15e-18]
+smallest certified interval lower bound 7.0227e-10 on [0.4383146653, 0.4385088636]
+smallest F(midpoint) seen -2.156358e-07 at x = 1.5647500000
+main range: False  (7160 interval checks, max depth 11)  t=32s
+INDEPENDENT VERDICT: NOT VERIFIED log lambda+ >= 95760933294563935041/175921860444160000000 0.5443378841764793
+exit status: 1

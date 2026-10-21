@@ -1,0 +1,9 @@
+polys 19 (active 19), nodes 5473, s = 0.05288542, m = 0.5443367842
+budget sum c deg + 2 s = 0.806772 < 1  OK;  I = [2.87813065195083585778865308624904367588e-11 +/- 7.26e-50]
+left tail (0, x_lo]: True 0.7904317289227277
+right tail [x_hi, inf): True 0.38659953586475143 kappa 0.19322820962663664
+root windows: 199  (65s)
+chord intervals: 5568
+interval checks: 29358; smallest endpoint lower bound 8.6495e-07
+VERIFIED: log lambda+ >= m = 19152147956103489293/35184372088832000000 = 0.5443367842; Omega >= 1.7234650  (480s)
+exit status: 0

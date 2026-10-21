@@ -1,0 +1,5 @@
+cert neg_budget_violation.json: 20 polys, 5473 nodes on [0, 56/5]
+m = 19152077587359311629/35184372088832000000 = 0.544334784176; drop = (); scaleG = None
+s = 0.052885415171802; sum c_j deg Q_j = 1.201000960029759; budget sum c deg + 2s = 1.306771790373363  strict < 1 (exact): False
+INDEPENDENT VERDICT: NOT VERIFIED (budget sum c_j deg Q_j + 2 s < 1 fails)
+exit status: 1

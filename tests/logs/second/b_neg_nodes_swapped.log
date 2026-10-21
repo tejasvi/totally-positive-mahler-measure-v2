@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/srv/p13/checker/check_independent.py", line 629, in <module>
+    sys.exit(0 if main() else 1)
+                  ~~~~^^
+  File "/srv/p13/checker/check_independent.py", line 541, in main
+    c = Cert(path, m_override=os.environ.get("TPA_M"), scaleG=Fr(sg) if sg else None, drop=drop)
+  File "/srv/p13/checker/check_independent.py", line 115, in __init__
+    assert self.e[0] >= 0 and all(self.e[k] < self.e[k + 1] for k in range(N)), "nodes strictly increasing, e_0 >= 0"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: nodes strictly increasing, e_0 >= 0
+exit status: 1
